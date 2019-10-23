@@ -19,7 +19,7 @@ button.hamburger:hover {
 
 .is-active .body-overlay {
 	transition: .4s ease-in-out;
-	transform: translateX(-200px);
+	transform: translateX(-250px);
 }
 
 .mobile-nav span.sub-toggle {
@@ -44,9 +44,9 @@ button.hamburger:hover {
 
 .mobile-nav {
 	position: fixed;
-	right: -200px;
+	right: -250px;
 	transform: translateX(0);
-	width: 200px;
+	width: 250px;
 	transition: .4s ease-in-out;
 	height: 100%;
 	top: 0;
@@ -103,18 +103,18 @@ button.hamburger:hover {
 	transform: translateX(0);
 	transition: .4s ease-in-out;
 	visibility: visible;
-	right: 200px;
+	right: 250px;
 }
 
 .is-active .mobile-nav, #page-container.is-active {
-	transform: translateX(-200px);
+	transform: translateX(-250px);
 	transition: .4s ease-in-out;
 	visibility: visible;
-	right: -200px;
+	right: -250px;
 }
 
 #page-container.is-active {
-	transform: translateX(-200px);
+	transform: translateX(-250px);
 	transition: .4s ease-in-out;
 }
 
@@ -167,7 +167,7 @@ body .hamburger:hover {
 }
 
 .hamburger.is-active {
-	transform: translateX(-200px);
+	transform: translateX(-250px);
 	transition: .4s ease-in-out;
 	
 }
