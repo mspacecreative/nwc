@@ -395,6 +395,12 @@ img.alignright {
 	img.alignright {
 		max-width: 50%;
 	}
+	
+	#intro .portrait-bg {
+		width: 100%;
+		padding-left: 50%;
+		background-color: #F5F5F6;
+	}
 }
 
 @media (min-width: 768px) {
@@ -490,8 +496,9 @@ img.alignright {
 	}
 	
 	#intro .portrait-bg {
-		width: 80%;
-		margin-right: -10%;
+		width: 100%;
+		padding-left: 20%;
+		background-color: #F5F5F6;
 	}
 	
 	.client-logos li {
