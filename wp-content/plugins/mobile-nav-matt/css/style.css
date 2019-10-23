@@ -13,12 +13,12 @@ button.hamburger:hover {
 	top: 0;
 	left: 0;
 	z-index: 2;
-	transition: 0.5s ease-in-out;
+	transition: .4s ease-in-out;
 	height: calc(100% - 46px);
 }
 
 .is-active .body-overlay {
-	transition: 0.5s ease-in-out;
+	transition: .4s ease-in-out;
 	transform: translateX(-250px);
 }
 
@@ -39,7 +39,7 @@ button.hamburger:hover {
 
 .mobile-nav-container button:hover {
 	background: none;
-	transition: all 0.5s ease-in-out;
+	transition: all .4s ease-in-out;
 }
 
 .mobile-nav {
@@ -47,7 +47,7 @@ button.hamburger:hover {
 	right: -250px;
 	transform: translateX(0);
 	width: 250px;
-	transition: 0.5s ease-in-out;
+	transition: .4s ease-in-out;
 	height: 100%;
 	top: 0;
 	-webkit-overflow-scrolling: touch;
@@ -96,26 +96,26 @@ button.hamburger:hover {
 }
 
 #main-header {
-	transition: 0.5s ease-in-out!important;
+	transition: .4s ease-in-out!important;
 	right: 0;
 }
 .is-active #main-header {
 	transform: translateX(0);
-	transition: 0.5s ease-in-out;
+	transition: .4s ease-in-out;
 	visibility: visible;
 	right: 250px;
 }
 
 .is-active .mobile-nav, #page-container.is-active {
 	transform: translateX(-250px);
-	transition: 0.5s ease-in-out;
+	transition: .4s ease-in-out;
 	visibility: visible;
 	right: -250px;
 }
 
 #page-container.is-active {
 	transform: translateX(-250px);
-	transition: 0.5s ease-in-out;
+	transition: .4s ease-in-out;
 }
 
 /*.mobile-nav-container {
@@ -126,7 +126,7 @@ button.hamburger:hover {
 }*/
 
 #page-container {
-	transition: 0.5s ease-in-out;
+	transition: .4s ease-in-out;
 }
 
 .mobile-nav .sub-menu {
@@ -140,7 +140,7 @@ body .hamburger {
 	padding: 0 0 0 10px;
 	display: table;
 	z-index: 999999;
-	transition: 0.5s ease-in-out;
+	transition: .4s ease-in-out;
 	border-radius: 10px 0 0 10px;
 	outline: none;
 	width: 40px;
@@ -168,7 +168,7 @@ body .hamburger:hover {
 
 .hamburger.is-active {
 	transform: translateX(-250px);
-	transition: 0.5s ease-in-out;
+	transition: .4s ease-in-out;
 	
 }
 
