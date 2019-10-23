@@ -395,6 +395,10 @@ img.alignright {
 		max-width: 50%;
 	}
 	
+	.splash-box .et_pb_blurb_container {
+		padding: 30px;
+	}
+	
 	#intro .portrait-bg {
 		width: 100%;
 		padding-left: 50%;
@@ -492,6 +496,10 @@ img.alignright {
 		padding: 15px;
 		max-width: 200px;
 		margin-bottom: 25px;
+	}
+	
+	.splash-box .et_pb_blurb_container {
+		padding: 30px;
 	}
 	
 	#intro .portrait-bg {
