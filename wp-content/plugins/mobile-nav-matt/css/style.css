@@ -60,6 +60,10 @@ button.hamburger:hover {
 	color: #fff;
 }
 
+#page-container, #main-header {
+    transform: translateX(0);
+}
+
 .mobile-nav a {
 	font-weight: bold;
 	font-size: 16px;
@@ -96,7 +100,6 @@ button.hamburger:hover {
 
 #main-header {
 	transition: .4s ease-in-out!important;
-	right: 0;
 }
 .is-active #main-header {
 	transform: translateX(0);
@@ -105,22 +108,22 @@ button.hamburger:hover {
 	right: 250px;
 }
 
-#page-container.is-active {
+.is-active .mobile-nav, #page-container.is-active {
 	transform: translateX(-250px);
 	transition: .4s ease-in-out;
-	visibility: visible;
-	right: -250px;
 }
 
 .is-active .mobile-nav {
-	right: 0;
-	transition: .4s ease-in-out;
 	visibility: visible;
+}
+
+#page-container.is-active {
+	transform: translateX(-250px);
+	transition: .4s ease-in-out;
 }
 
 #page-container {
 	transition: .4s ease-in-out;
-	right: 0;
 }
 
 .mobile-nav .sub-menu {
