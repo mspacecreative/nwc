@@ -45,7 +45,6 @@ button.hamburger:hover {
 .mobile-nav {
 	position: fixed;
 	right: -250px;
-	transform: translateX(0);
 	width: 250px;
 	transition: .4s ease-in-out;
 	height: 100%;
@@ -106,27 +105,22 @@ button.hamburger:hover {
 	right: 250px;
 }
 
-.is-active .mobile-nav, #page-container.is-active {
+#page-container.is-active {
 	transform: translateX(-250px);
 	transition: .4s ease-in-out;
 	visibility: visible;
 	right: -250px;
 }
 
-#page-container.is-active {
-	transform: translateX(-250px);
+.is-active .mobile-nav {
+	right: 0;
 	transition: .4s ease-in-out;
+	visibility: visible;
 }
-
-/*.mobile-nav-container {
-	position: relative;
-	max-width: 1280px;
-	margin: auto;
-	width: 90%;
-}*/
 
 #page-container {
 	transition: .4s ease-in-out;
+	right: 0;
 }
 
 .mobile-nav .sub-menu {
