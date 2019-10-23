@@ -344,7 +344,6 @@ img.alignright {
 	}
 	.portrait-bg .et_pb_module.et_pb_image .et_pb_image_wrap, .portrait-bg .et_pb_module.et_pb_image .et_pb_image_wrap img {
 	    width: auto;
-	    max-width: none;
 	}
 }
 
@@ -492,7 +491,7 @@ img.alignright {
 	
 	#intro .portrait-bg {
 		width: 80%;
-		margin-left: -10%;
+		margin-right: -10%;
 	}
 	
 	.client-logos li {
