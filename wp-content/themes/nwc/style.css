@@ -154,10 +154,6 @@ h5.et_pb_module_header {
 	margin-top: 10px;
 }
 
-.splash {
-	height: 85vh;
-}
-
 .splash .et_pb_row {
 	height: 100%;
 }
@@ -235,7 +231,6 @@ h5.et_pb_module_header {
 	bottom: 0;
 	background-position: top right;
 	width: 30%;
-	height: 100%;
 	display: none;
 }
 
@@ -271,6 +266,7 @@ h5.et_pb_module_header {
 	flex-wrap: wrap;
 	text-align: center;
 	padding: 0;
+	justify-content: center;
 }
 
 .client-logos li {
@@ -281,8 +277,8 @@ h5.et_pb_module_header {
 	padding: 30px;
 }
 
-.square-logo img {
-	max-width: 150px;
+.portrait-bg > *, .portrait-bg > * > *, .portrait-bg > * > * > *  {
+	height: 100%;
 }
 
 #intro:before {
@@ -334,6 +330,29 @@ img.alignright {
 	z-index: 10;
 }
 
+.intro-title {
+	margin-top: -150px;
+}
+
+@media (max-width: 1024px) {
+	.intro-title {
+		margin-top: -50px;
+	}
+	.portrait-bg {
+		max-width: none;
+	}
+	.portrait-bg .et_pb_module.et_pb_image .et_pb_image_wrap, .portrait-bg .et_pb_module.et_pb_image .et_pb_image_wrap img {
+	    width: auto;
+	    max-width: none;
+	}
+}
+
+@media (min-width: 1025px) {
+	.intro-title {
+	    margin-top: -80px;
+	}
+}
+
 @media (max-width: 980px) {
 	.pullquote {
 		display: block;
@@ -343,6 +362,14 @@ img.alignright {
 		width: auto;
 		left: auto;
 		float: none;
+	}
+	
+	#intro .portrait-bg {
+		position: relative;
+		right: auto;
+		bottom: auto;
+		background-position: top center;
+		width: 100%;
 	}
 	
 	.et_fixed_nav #main-header {
@@ -380,6 +407,10 @@ img.alignright {
 	.overlap-section {
 		display: flex;
 		align-items: center;
+	}
+	
+	.splash {
+		height: 85vh;
 	}
 	
 	.et_pb_gutters3 .footer-widget {
@@ -441,4 +472,34 @@ img.alignright {
 		background: #f9f9f9;
 		box-shadow: 0px 20px 10px -15px #999;
 	}
+}
+
+@media (max-width: 450px) {
+	#intro:before {
+		width: 100%;
+	}
+	
+	.home #et-main-area:before {
+		height: 120px;
+	}
+	
+	.client-logos img {
+		padding: 15px;
+		max-width: 200px;
+		margin-bottom: 25px;
+	}
+	
+	.client-logos li {
+	    flex-basis: 100%;
+	}
+}
+
+.client-logos .square-logo img {
+	max-width: 150px;
+}
+
+@media (min-width: 1600px) {
+
+#intro .portrait-bg {
+	width: 20%;
 }
