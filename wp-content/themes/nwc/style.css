@@ -223,6 +223,7 @@ h5.et_pb_module_header {
 
 #intro {
 	z-index: 2;
+	overflow: hidden;
 }
 
 #intro .portrait-bg {
@@ -487,6 +488,11 @@ img.alignright {
 		padding: 15px;
 		max-width: 200px;
 		margin-bottom: 25px;
+	}
+	
+	#intro .portrait-bg {
+		width: 80%;
+		margin-left: -10%;
 	}
 	
 	.client-logos li {
