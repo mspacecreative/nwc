@@ -101,14 +101,8 @@ button.hamburger:hover {
 #main-header {
 	transition: .4s ease-in-out!important;
 }
-.is-active #main-header {
-	transform: translateX(0);
-	transition: .4s ease-in-out;
-	visibility: visible;
-	right: 250px;
-}
 
-.is-active .mobile-nav, #page-container.is-active {
+.is-active .mobile-nav, #page-container.is-active, .is-active #main-header {
 	transform: translateX(-250px);
 	transition: .4s ease-in-out;
 }
