@@ -345,6 +345,10 @@ img.alignright {
 		float: none;
 	}
 	
+	.et_fixed_nav #main-header {
+		position: fixed;
+	}
+	
 	.et_header_style_left #logo, .et_header_style_split #logo {
 	    max-width: 100px;
 	}
