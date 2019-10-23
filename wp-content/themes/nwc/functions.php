@@ -20,6 +20,9 @@ function footerScripts() {
 	
 	wp_register_script('slick-js', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), null, true);
 	wp_enqueue_script('slick-js');
+	
+	wp_register_script('fontawesome', 'https://use.fontawesome.com/6ccd600e51.js', array('jquery'), null, true);
+	wp_enqueue_script('fontawesome');
 }
 
 // CLIENT LOGOS SHORTCODE
