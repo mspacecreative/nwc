@@ -522,3 +522,10 @@ img.alignright {
 #intro .portrait-bg {
 	width: 20%;
 }
+
+
+@media (max-width: 450px) {
+	.et_pb_blurb_container h4 {
+	    font-size: 2em;
+	}
+}
