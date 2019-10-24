@@ -1,13 +1,13 @@
 (function ($) {
 	
 	// PAGE LOADING TRANSITION
-	$("#et-top-navigation a, .et_pb_button, .mobile-nav a, .logo_container a, .menu a").click(function(e) {
+	/*$("#et-top-navigation a, .et_pb_button, .mobile-nav a, .logo_container a, .menu a").click(function(e) {
 	    e.preventDefault();
 	    $link = $(this).attr("href");
 	    $("body").fadeOut('slow',function(){
 	      window.location =  $link; 
 	    });
-	});
+	});*/
 	
 	$(window).load(function() {
 		$('body').fadeIn('slow');
@@ -29,6 +29,14 @@
 			adaptiveHeight: true,
 			dots: true,
 			arrows: true,
+		});
+		
+		$("#et-top-navigation a, .et_pb_button, .mobile-nav a, .logo_container a, .menu a").click(function(e) {
+		    e.preventDefault();
+		    $link = $(this).attr("href");
+		    $("body").fadeOut('slow',function(){
+		      window.location =  $link; 
+		    });
 		});
 	});
 	
