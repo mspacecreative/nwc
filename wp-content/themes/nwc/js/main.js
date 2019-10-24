@@ -9,8 +9,6 @@
 	    });
 	});
 	
-	$(document).addStyle("body","display: none");
-	
 	$(window).load(function() {
 		$('body').fadeIn('slow');
 	});
