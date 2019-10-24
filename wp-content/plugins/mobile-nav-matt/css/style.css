@@ -94,6 +94,15 @@ button.hamburger:hover {
 	display: block;
 }
 
+.mobile-nav .et-social-icons {
+	text-align: left;
+}
+
+.mobile-nav .et-social-icons li {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
 .mobile-nav .menu ul li a {
 	padding: 15px 30px;
 }
