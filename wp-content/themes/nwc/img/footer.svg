@@ -2,17 +2,18 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="792px" height="108.8px" viewBox="0 0 792 108.8" enable-background="new 0 0 792 108.8" xml:space="preserve">
+	 width="792px" height="110.802px" viewBox="0 0 792 110.802" enable-background="new 0 0 792 110.802" xml:space="preserve">
 <g>
-	<defs>
-		<rect id="SVGID_1_" width="792" height="108.8"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
-	</clipPath>
-	<g clip-path="url(#SVGID_2_)">
-		
-			<image overflow="visible" opacity="0.25" width="3390" height="496" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAADUAAAAH0CAYAAABG0WYOAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="792" height="110.802"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			
+				<image overflow="visible" opacity="0.25" enable-background="new    " width="3392" height="500" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAADUAAAAH0CAYAAABG0WYOAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAABB3NJREFUeNrs3Yty20iysNsiW+//
 xi2e057Rvzlo1CWrEiBIrRXhAHERLZsF2O7oL/L2eDwKAAAAAAAAAAAAAAAAwBXd/RYAAAAAAAAA
 AAAAAAAAVyWAAgAAAAAAAAAAAAAAAC5LAAUAAAAAAAAAAAAAAABclgAKAAAAAAAAAAAAAAAAuCwB
@@ -1197,23 +1198,12 @@ AAAAAAAAAAAAgDe1NAy03z1cVN4gAPVfB7w+EDV8KO4XAAAAAADgyXYfwWWM/QAAAAAAAFe7xVjP
 DQmVHxyASn0IwlIAAAAAAAAAAAAAAADczC748w8BKAAAAAAAAAAAAAAAAOC2PnwEAAAAAAAAAAAA
 AAAAwF0JQAEAAAAAAAAAAAAAAAC3JQAFAAAAAAAAAAAAAAAA3JYAFAAAAAAAAAAAAAAAAHBbAlAA
 AAAAAAAAAAAAAADAbQlAAQAAAAAAAAAAAAAAALclAAUAAAAAAAAAAAAAAADc1v8TYADx0ga0YmEk
-4QAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 -10.7998 0.79)">
-		</image>
-		<g>
-			<polygon fill="#F9F9F9" points="792,108.8 0,108.8 0,11.59 396.318,107.799 792,11.59 			"/>
+4QAAAABJRU5ErkJggg==" transform="matrix(0.2399 0 0 0.2381 -10.8003 0.79)">
+			</image>
+			<g>
+				<polygon fill="#F9F9F9" points="792,110.802 0,110.802 0,11.59 396.318,107.798 792,11.59 				"/>
+			</g>
 		</g>
 	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
 </g>
 </svg>
