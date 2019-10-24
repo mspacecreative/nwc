@@ -12,13 +12,13 @@ if ( $loop->have_posts() ) : ?>
     	if ( get_field('square_logo') ): ?>
     	<li class="square-logo">
 	    	<?php if ( has_post_thumbnail() ) {
-	    		echo the_post_thumbnail( array(400,'') );
+	    		echo the_post_thumbnail('medium');
 	    	} ?>
     	</li>
 		<?php else : ?>
 		<li>
 			<?php if ( has_post_thumbnail() ) {
-				echo the_post_thumbnail( array(400,'') );
+				echo the_post_thumbnail('medium' );
 			} ?>
 		</li>
     	<?php endif;
