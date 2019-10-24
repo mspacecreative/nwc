@@ -529,3 +529,9 @@ img.alignright {
 	    font-size: 2em;
 	}
 }
+
+@media (min-width: 1350px) {
+	#main-content {
+	    padding-top: 115px;
+	}
+}

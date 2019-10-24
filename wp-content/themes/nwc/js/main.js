@@ -1,4 +1,8 @@
 (function ($) {
+	
+	// MOVE SCROLL TO TOP BUTTON
+	$('.et_pb_scroll_top').insertAfter('#main-header');
+	
 	$(document).scroll(function() {
 	  var y = $(this).scrollTop();
 	  if (y > 200) {
