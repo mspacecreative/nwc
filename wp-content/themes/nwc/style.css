@@ -315,6 +315,10 @@ img.alignright {
 	padding-bottom: 0;
 }
 
+.intro-title h3 {
+	margin-top: 15px;
+}
+
 .overlap-section .et_pb_image_wrap {
 	padding: 5px;
 	border: 1px solid #658695;
