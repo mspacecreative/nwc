@@ -88,21 +88,6 @@ h5.et_pb_module_header {
 	fill: #f9f9f9;
 }
 
-/*#main-footer:before {
-	position: absolute;
-	bottom: 100%;
-	width: 100%;
-	left: 0;
-	content: '';
-	background-image: url(img/footer.svg);
-	background-size: 100%;
-	background-position: bottom center;
-	background-repeat: no-repeat;
-	height: 400px;
-	z-index: 1;
-	fill: #f9f9f9;
-}*/
-
 #main-content {
 	padding: 8% 0 0;
 	z-index: 1;
@@ -540,8 +525,9 @@ img.alignright {
 
 @media (min-width: 1600px) {
 
-#intro .portrait-bg {
-	width: 20%;
+	#intro .portrait-bg {
+		width: 20%;
+	}
 }
 
 
