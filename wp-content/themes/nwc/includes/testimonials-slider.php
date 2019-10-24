@@ -13,8 +13,8 @@ if ( $loop->have_posts() ) : ?>
 			<?php
 				$company = get_field('company');
 				$position =  get_field('title__position');
-				if ( $company && $position ) {
-					echo '<p class="title-position">' . the_field('company') . _e(', ') . the_field('title__position') . '</p>';
+				if ( $position && $company ) {
+					echo '<p class="title-position">' . the_field('title__position') . _e(', ') . the_field('company') . '</p>';
 				} elseif ( $position ) {
 					echo '<p class="title-position">' . the_field('title__position') . '</p>';
 				} elseif ( $company ) {
