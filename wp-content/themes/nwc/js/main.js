@@ -1,16 +1,18 @@
 (function ($) {
 	
 	// PAGE LOADING TRANSITION
-	$("#et-top-navigation a, .et_pb_button, .mobile-nav a, .logo_container a, .menu a").click(function(e) {
-	    e.preventDefault();
-	    $link = $(this).attr("href");
-	    $("body").fadeOut('slow',function(){
-	      window.location =  $link; 
-	    });
-	});
-	
-	$(window).load(function() {
+	$(document).ready(function() {
+		
 		$('body').fadeIn('slow');
+		
+		$("#et-top-navigation a, .et_pb_button, .mobile-nav a, .logo_container a, .menu a").click(function(e) {
+		    e.preventDefault();
+		    $link = $(this).attr("href");
+		    $("body").fadeOut('slow',function(){
+		      window.location =  $link; 
+		    });
+		});
+	
 	});
 	
 	// MOVE SCROLL TO TOP BUTTON
