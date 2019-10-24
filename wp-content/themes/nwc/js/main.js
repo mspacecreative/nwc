@@ -31,7 +31,7 @@
 			arrows: true,
 		});
 		
-		$('body').hide();
+		$('body').css('display', 'none');
 	});
 	
 	if ( $('.pullquote').length ) {
