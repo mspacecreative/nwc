@@ -9,6 +9,8 @@
 	    });
 	});
 	
+	$(document).addStyle("body","display: none");
+	
 	$(window).load(function() {
 		$('body').fadeIn('slow');
 	});
@@ -30,8 +32,6 @@
 			dots: true,
 			arrows: true,
 		});
-		
-		$('body').css('display', 'none');
 	});
 	
 	if ( $('.pullquote').length ) {
