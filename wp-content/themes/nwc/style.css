@@ -16,6 +16,10 @@ h2, .et_pb_blurb_container h4, .entry-title, #et-main-area h3, #main-footer .foo
 	font-family: 'Arapey', serif;
 }
 
+body {
+	display: none;
+}
+
 h1.entry-title {
 	font-size: 3em;
 }

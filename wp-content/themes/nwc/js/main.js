@@ -1,5 +1,18 @@
 (function ($) {
 	
+	// PAGE LOADING TRANSITION
+	$("#et-top-navigation a, .et_pb_button, .mobile-nav a, .logo_container a").click(function(e) {
+	    e.preventDefault();
+	    $link = $(this).attr("href");
+	    $("body").fadeOut('slow',function(){
+	      window.location =  $link; 
+	    });
+	});
+	
+	$(window).load(function() {
+		$('body').fadeIn('slow');
+	});
+	
 	// MOVE SCROLL TO TOP BUTTON
 	$('.et_pb_scroll_top').insertAfter('#main-header');
 	
