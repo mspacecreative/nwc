@@ -56,6 +56,15 @@
 				 */
 				echo et_core_intentionally_unescaped( apply_filters( 'et_html_logo_container', $logo_container ), 'html' );
 			?>
+				<ul class="et-social-icons">
+				
+					<li class="et-social-icon et-social-linkedin">
+						<a href="https://www.linkedin.com/in/nadine-wentzell/" class="icon" target="_blank">
+							<span><?php esc_html_e( 'LinkedIn', 'Divi' ); ?></span>
+						</a>
+					</li>
+				</ul>
+				
 				<div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">
 					<?php if ( ! $et_slide_header || is_customize_preview() ) : ?>
 						<nav id="top-menu-nav">
@@ -112,6 +121,7 @@
 
 					?>
 				</div> <!-- #et-top-navigation -->
+				
 			</div> <!-- .container -->
 			<div class="et_search_outer">
 				<div class="container et_search_form_container">

@@ -363,6 +363,10 @@ img.alignright {
 		float: none;
 	}
 	
+	#main-header .et-social-icons {
+		display: none;
+	}
+	
 	#intro .portrait-bg {
 		position: relative;
 		right: auto;
@@ -416,6 +420,20 @@ img.alignright {
 	.overlap-section {
 		display: flex;
 		align-items: center;
+	}
+	
+	#main-header .et-social-icon {
+		line-height: 109px;
+		transition: .4s ease-in-out;
+	}
+	
+	#main-header.et-fixed-header .et-social-icon {
+		line-height: 50px;
+		transition: .4s ease-in-out;
+	}
+	
+	#main-header .et-social-icon a:before {
+		font-size: 18px;
 	}
 	
 	.splash {
