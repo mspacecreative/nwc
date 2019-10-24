@@ -4,13 +4,13 @@
 	$("#et-top-navigation a, .et_pb_button, .mobile-nav a, .logo_container a, .menu a").click(function(e) {
 	    e.preventDefault();
 	    $link = $(this).attr("href");
-	    $('#page-container').fadeOut('slow',function(){
+	    $("body").fadeOut('slow',function(){
 	      window.location =  $link; 
 	    });
 	});
 	
 	$(window).load(function() {
-		$('#page-container').fadeIn('slow');
+		$('body').fadeIn('slow');
 	});
 	
 	// MOVE SCROLL TO TOP BUTTON

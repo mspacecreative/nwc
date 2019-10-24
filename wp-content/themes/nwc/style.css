@@ -16,7 +16,7 @@ h2, .et_pb_blurb_container h4, .entry-title, #et-main-area h3, #main-footer .foo
 	font-family: 'Arapey', serif;
 }
 
-#page-container {
+body {
 	display: none;
 }
 
