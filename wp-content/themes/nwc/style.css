@@ -505,6 +505,9 @@ img.alignright {
 	#intro:before {
 		width: 100%;
 	}
+	.testimonials-slider p {
+		font-size: 1.2em;
+	}
 	
 	.home #et-main-area:before {
 		height: 120px;

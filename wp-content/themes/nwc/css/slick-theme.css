@@ -188,3 +188,12 @@
     opacity: .75;
     color: black;
 }
+
+@media (max-width: 450px) {
+	.slick-prev {
+		left: -10px;
+	}
+	.slick-next {
+		right: -10px;
+	}
+}
