@@ -31,6 +31,10 @@ h1.entry-title {
 	font-size: 14px;
 }
 
+.et-social-icon a:hover {
+	color: #999;
+}
+
 .contact_form_fields, .wpcf7 textarea, .wpcf7 p {
 	margin-bottom: 4%;
 }
