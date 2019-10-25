@@ -11,6 +11,9 @@ function my_theme_enqueue_styles() {
     
     wp_register_style('slick-theme', get_stylesheet_directory_uri() . '/css/slick-theme.css', array(), '1.0', 'all');
     wp_enqueue_style('slick-theme');
+    
+    wp_register_style('parallaxer-css', get_stylesheet_directory_uri() . '/css/dzsparallaxer.css', array(), '1.0', 'all');
+    wp_enqueue_style('parallaxer-css');
 }
 
 // Load scripts in footer
@@ -23,6 +26,9 @@ function footerScripts() {
 	
 	wp_register_script('fontawesome', 'https://use.fontawesome.com/6ccd600e51.js', array('jquery'), null, true);
 	wp_enqueue_script('fontawesome');
+	
+	wp_register_script('parallaxer-js', get_stylesheet_directory_uri() . '/js/dzsparallaxer.js', array('jquery'), null, true);
+	wp_enqueue_script('parallaxer-js');
 }
 
 // CLIENT LOGOS SHORTCODE
