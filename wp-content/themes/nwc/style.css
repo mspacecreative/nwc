@@ -26,6 +26,8 @@ h1.entry-title {
 
 body .wpcf7-response-output {
 	color: #000;
+	font-size: 14px;
+	line-height: 1.5em;
 }
 
 .et_pb_widget {
