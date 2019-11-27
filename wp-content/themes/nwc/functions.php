@@ -45,8 +45,14 @@ function testimonialsSlider() {
 	return ob_get_clean();
 }
 
+// Shortcode Demo with Nested Capability
+function pullQuote($atts, $content = null) {
+    return '<span class="pullquote">' . do_shortcode($content) . '</span>';
+}
+
 // SHORTCODES, ACTIONS & FILTERS
 add_shortcode( 'client_logos', 'clientLogos' );
 add_shortcode( 'testimonials_slider', 'testimonialsSlider' );
+add_shortcode('pullquote', 'pullQuote');
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 add_action('wp_enqueue_scripts', 'footerScripts');
