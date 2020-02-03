@@ -50,17 +50,9 @@ function pullQuote($atts, $content = null) {
     return '<span class="pullquote">' . do_shortcode($content) . '</span>';
 }
 
-// Display current year using shortcode
-function currentYear() {
- 	ob_start();
- 		echo date('Y');
- 	return ob_get_clean();
-} 
-
 // SHORTCODES, ACTIONS & FILTERS
 add_shortcode( 'client_logos', 'clientLogos' );
 add_shortcode( 'testimonials_slider', 'testimonialsSlider' );
 add_shortcode('pullquote', 'pullQuote');
-add_shortcode( 'current_year', 'currentYear' );
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 add_action('wp_enqueue_scripts', 'footerScripts');
