@@ -1,5 +1,6 @@
 (function ($) {
 	
+	
 	// PAGE LOADING TRANSITION
 	$("#et-top-navigation a, .et_pb_button, .mobile-nav a, .logo_container a, .menu a").click(function(e) {
 	    e.preventDefault();
@@ -7,6 +8,16 @@
 	    $("body").fadeOut('slow',function(){
 	      window.location =  $link; 
 	    });
+	});
+	
+	$('.play-audio').each(function() {
+		$(this).click(function() {
+			$(this).parent().next().slideDown();
+			$(this).parent().next().find('audio').trigger('play');
+			$('.play-audio').not(this).each(function() {
+				$(this).parent().next().find('audio').trigger('pause');
+			});
+		});
 	});
 	
 	$(window).load(function() {
